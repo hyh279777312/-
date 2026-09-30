@@ -1,0 +1,93 @@
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit",
+    "electron:build": "vite build && electron-builder --mac dmg",
+    "electron:build:win": "vite build && electron-builder --win portable --x64"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "vite": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.21",
+    "electron": "^28.3.3",
+    "electron-builder": "^26.0.12",
+    "esbuild": "^0.28.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2"
+  },
+  "build": {
+    "appId": "com.hqs.jianying.packager",
+    "productName": "HQS剪映工程收集",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "scripts/**/*",
+      "public/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "icon": "public/icon.png",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": ["x64", "arm64"]
+        },
+        {
+          "target": "dir",
+          "arch": ["x64", "arm64"]
+        }
+      ],
+      "category": "public.app-category.developer-tools",
+      "minimumSystemVersion": "12.0.0"
+    },
+    "win": {
+      "icon": "public/icon.ico",
+      "artifactName": "HQS剪映工程收集-v4.0.3-便携单文件.exe",
+      "files": [
+        "dist/**/*",
+        "electron/main_win.cjs",
+        "scripts/**/*",
+        "public/**/*",
+        "python/**/*",
+        "package.json"
+      ],
+      "asarUnpack": [
+        "python/**/*"
+      ],
+      "target": [
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ]
+    }
+  }
+}

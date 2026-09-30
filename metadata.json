@@ -1,0 +1,6 @@
+{
+  "name": "火枪手剪映工程迁移V4.3.2",
+  "description": "专业剪映 Mac 本地工程一键打包与智能回批迁移工具，支持原生解密、智能时间线解析与 V4.3.2 / V1.7 高级引擎",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_AI_API"]
+}
