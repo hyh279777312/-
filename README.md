@@ -29,11 +29,11 @@
 ## 🖼️ UI 界面预览
 
 ### 1. 本地打包 V4.3.2 界面
-![本地打包界面](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop)
+![本地打包界面](https://us-east1-shared.img.aistudio.google.com/sessions/3390aade-a291-4214-a201-103f26ff2ab0/user_uploaded_image_0.png)
 *支持一键选择剪映工程、自定义输出路径、实时查看容量与打包日志。*
 
 ### 2. 智能回批 V1.7 界面
-![智能回批界面](https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop)
+![智能回批界面](https://us-east1-shared.img.aistudio.google.com/sessions/3390aade-a291-4214-a201-103f26ff2ab0/user_uploaded_image_1.png)
 *跨设备接收打包目录后，一键自动修复路径并安装至新剪映草稿目录。*
 
 ---
