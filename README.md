@@ -29,11 +29,14 @@
 ## 🖼️ UI 界面预览
 
 ### 1. 本地打包 V4.3.2 界面
-![本地打包界面](https://us-east1-shared.img.aistudio.google.com/sessions/3390aade-a291-4214-a201-103f26ff2ab0/user_uploaded_image_0.png)
+<img width="807" height="597" alt="image" src="https://github.com/user-attachments/assets/09fd8ec2-3f43-4a9f-939f-4d10e0d8bf25" />
+
 *支持一键选择剪映工程、自定义输出路径、实时查看容量与打包日志。*
 
 ### 2. 智能回批 V1.7 界面
-![智能回批界面](https://us-east1-shared.img.aistudio.google.com/sessions/3390aade-a291-4214-a201-103f26ff2ab0/user_uploaded_image_1.png)
+<img width="799" height="602" alt="image" src="https://github.com/user-attachments/assets/9ce4dc67-554a-40e5-b4b5-7778a7e9a091" />
+
+
 *跨设备接收打包目录后，一键自动修复路径并安装至新剪映草稿目录。*
 
 ---
@@ -63,9 +66,9 @@
 ## ☕ Buy Me a Coffee
 
 如果您觉得这款工具对您的剪辑工作有所帮助，欢迎请作者喝杯咖啡，支持我们持续优化升级！
+<img width="400" height="400" alt="qrcode" src="https://github.com/user-attachments/assets/bc0a4198-c0e2-460b-ab3d-f2c3f828c4d3" />
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com)
-
+THANKS！
 ---
 
 ## 📄 开源与协议
